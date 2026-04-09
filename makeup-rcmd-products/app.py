@@ -45,6 +45,12 @@ def run_app():
     st.title("✨ AI Beauty Recommendation System")
     st.markdown("Discover perfect Skincare and Haircare routines based on your unique profile using Machine Learning.")
 
+    with st.sidebar:
+        st.header("🔑 API Configuration")
+        st.markdown("To enable the AI Dermatologist explanation features, please provide a Groq API key.")
+        user_api_key = st.text_input("Groq API Key", type="password")
+        st.markdown("[Get a free Groq key here!](https://console.groq.com/keys)")
+
     with st.expander("📊 View ML Training Datasets"):
         try:
             import pandas as pd
@@ -69,7 +75,7 @@ def run_app():
         )
         db_skin = load_db('data/product_db.json')
         db_hair = load_db('data/hair_product_db.json')
-        groq_verifier = GroqVerifier()
+        groq_verifier = GroqVerifier(api_key=user_api_key)
     except Exception as e:
         st.error(f"Error initializing system APIs and models: {str(e)}")
         return

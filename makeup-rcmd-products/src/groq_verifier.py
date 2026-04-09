@@ -5,8 +5,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class GroqVerifier:
-    def __init__(self):
-        api_key = os.getenv("GROQ_API_KEY")
+    def __init__(self, api_key=None):
+        if not api_key:
+            api_key = os.getenv("GROQ_API_KEY")
+            
         if not api_key or api_key == "your_groq_api_key_here":
             self.client = None
         else:
