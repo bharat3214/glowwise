@@ -1,0 +1,170 @@
+{
+  "Acne Control": [
+    {
+      "name": "Neutrogena Hydro Boost Gel",
+      "type": "Moisturizer",
+      "ingredients": "Water, Dimethicone, Glycerin, Sodium Hyaluronate"
+    },
+    {
+      "name": "La Roche Posay Effaclar Cleanser",
+      "type": "Cleanser",
+      "ingredients": "Water, Sodium Laureth Sulfate, PEG-8, Coco-Betaine"
+    },
+    {
+      "name": "The Ordinary Niacinamide Serum",
+      "type": "Serum",
+      "ingredients": "Aqua, Niacinamide, Zinc PCA"
+    },
+    {
+      "name": "Minimalist Salicylic Acid Cleanser",
+      "type": "Cleanser",
+      "ingredients": "Aqua, Salicylic Acid, Glycerin, LHA"
+    },
+    {
+      "name": "Plum Green Tea Moisturizer",
+      "type": "Moisturizer",
+      "ingredients": "Aqua, Green Tea Extracts, Glycolic Acid"
+    },
+    {
+      "name": "Mamaearth Tea Tree Face Wash",
+      "type": "Cleanser",
+      "ingredients": "Aqua, Tea Tree Extract, Neem Extract"
+    },
+    {
+      "name": "Re'equil Oil Control Cleanser",
+      "type": "Cleanser",
+      "ingredients": "Aqua, Cocamidopropyl Betaine, Zinc PCA"
+    },
+    {
+      "name": "Clinique Anti-Blemish Gel",
+      "type": "Moisturizer",
+      "ingredients": "Water, Alcohol Denat., Salicylic Acid"
+    },
+    {
+      "name": "Maybelline Fit Me Foundation",
+      "type": "Foundation",
+      "ingredients": "Aqua, Cyclopentasiloxane, Dimethicone"
+    },
+    {
+      "name": "MAC Studio Fix Foundation",
+      "type": "Foundation",
+      "ingredients": "Water, Cyclopentasiloxane, Silica"
+    },
+    {
+      "name": "Fenty Beauty Pro Filt'r Foundation",
+      "type": "Foundation",
+      "ingredients": "Water, Dimethicone, Talc"
+    }
+  ],
+  "Hydration": [
+    {
+      "name": "Cetaphil Moisturizing Cream",
+      "type": "Moisturizer",
+      "ingredients": "Water, Glycerin, Petrolatum, Dicaprylyl Ether"
+    },
+    {
+      "name": "The Ordinary Hyaluronic Acid",
+      "type": "Serum",
+      "ingredients": "Aqua, Sodium Hyaluronate, Panthenol"
+    },
+    {
+      "name": "Plum E-Luminence Cream",
+      "type": "Moisturizer",
+      "ingredients": "Aqua, Vitamin E, Jojoba Oil"
+    },
+    {
+      "name": "Clinique Moisture Surge",
+      "type": "Moisturizer",
+      "ingredients": "Water, Dimethicone, Butylene Glycol, Aloe Barbadensis"
+    },
+    {
+      "name": "Simple Hydrating Light Moisturizer",
+      "type": "Moisturizer",
+      "ingredients": "Aqua, Glycerin, Paraffinum Liquidum"
+    },
+    {
+      "name": "Re'equil Ceramide Moisturizer",
+      "type": "Moisturizer",
+      "ingredients": "Aqua, Ceramide NP, Squalane"
+    },
+    {
+      "name": "Neutrogena Ultra Sheer Sunscreen",
+      "type": "Sunscreen",
+      "ingredients": "Avobenzone, Homosalate, Octisalate, Octocrylene"
+    },
+    {
+      "name": "Lakme 9to5 Foundation",
+      "type": "Foundation",
+      "ingredients": "Aqua, Dimethicone, Glycerin"
+    },
+    {
+      "name": "L'Oreal True Match Foundation",
+      "type": "Foundation",
+      "ingredients": "Water, Dimethicone, Isododecane"
+    },
+    {
+      "name": "Huda Beauty Faux Filter Foundation",
+      "type": "Foundation",
+      "ingredients": "Water, Cyclohexasiloxane, Glycerin"
+    }
+  ],
+  "Sensitive Care": [
+    {
+      "name": "Cetaphil Gentle Cleanser",
+      "type": "Cleanser",
+      "ingredients": "Water, Cetyl Alcohol, Propylene Glycol"
+    },
+    {
+      "name": "La Roche Posay Cicaplast Baume",
+      "type": "Moisturizer",
+      "ingredients": "Aqua, Hydrogenated Polyisobutene, Dimethicone, Panthenol"
+    },
+    {
+      "name": "Minimalist Vitamin B5 Moisturizer",
+      "type": "Moisturizer",
+      "ingredients": "Aqua, Panthenol, Glycerin"
+    },
+    {
+      "name": "Dot & Key Cica Calming Gel",
+      "type": "Moisturizer",
+      "ingredients": "Aqua, Centella Asiatica, Niacinamide"
+    },
+    {
+      "name": "Simple Refreshing Face Wash",
+      "type": "Cleanser",
+      "ingredients": "Aqua, Cocamidopropyl Betaine, Propylene Glycol"
+    },
+    {
+      "name": "Rare Beauty Soft Pinch Blush",
+      "type": "Blush",
+      "ingredients": "Hydrogenated Polyisobutene, Mica"
+    },
+    {
+      "name": "Faces Canada Magneteyes Kajal",
+      "type": "Eyeliner",
+      "ingredients": "Iron Oxides, Cyclomethicone"
+    },
+    {
+      "name": "Kay Beauty Cream Blush",
+      "type": "Blush",
+      "ingredients": "Dimethicone, Silica"
+    }
+  ],
+  "Anti-Aging": [
+    {
+      "name": "L'Oreal Revitalift Serum",
+      "type": "Serum",
+      "ingredients": "Aqua, Pro-Retinol, Centella Asiatica"
+    },
+    {
+      "name": "Olay Regenerist Micro-Sculpting Cream",
+      "type": "Moisturizer",
+      "ingredients": "Water, Glycerin, Niacinamide, Peptides"
+    },
+    {
+      "name": "Paula's Choice 1% Retinol Treatment",
+      "type": "Serum",
+      "ingredients": "Water, Retinol, Vitamin C, Vitamin E, Peptides"
+    }
+  ]
+}
