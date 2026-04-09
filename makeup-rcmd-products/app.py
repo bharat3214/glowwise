@@ -1,9 +1,13 @@
 import streamlit as st
 import json
+import os
 from src.ml_engine import MLEngine
 from src.groq_verifier import GroqVerifier
 
-def load_db(path):
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+def load_db(rel_path):
+    path = os.path.join(BASE_DIR, rel_path)
     with open(path, 'r') as f:
         return json.load(f)
 
@@ -47,16 +51,22 @@ def run_app():
             colA, colB = st.columns(2)
             with colA:
                 st.write("**Skincare Dataset**")
-                st.dataframe(pd.read_csv('data/skincare_dataset.csv').head(50))
+                st.dataframe(pd.read_csv(os.path.join(BASE_DIR, 'data/skincare_dataset.csv')).head(50))
             with colB:
                 st.write("**Haircare Dataset**")
-                st.dataframe(pd.read_csv('data/haircare_dataset.csv').head(50))
+                st.dataframe(pd.read_csv(os.path.join(BASE_DIR, 'data/haircare_dataset.csv')).head(50))
         except Exception:
             st.error("Datasets not found. Ensure scripts have been run.")
 
     try:
-        ml_skin = MLEngine()
-        ml_hair = MLEngine(model_path='models/hair_model.pkl', encoder_path='models/hair_encoders.pkl')
+        ml_skin = MLEngine(
+            model_path=os.path.join(BASE_DIR, 'models/model.pkl'), 
+            encoder_path=os.path.join(BASE_DIR, 'models/encoders.pkl')
+        )
+        ml_hair = MLEngine(
+            model_path=os.path.join(BASE_DIR, 'models/hair_model.pkl'), 
+            encoder_path=os.path.join(BASE_DIR, 'models/hair_encoders.pkl')
+        )
         db_skin = load_db('data/product_db.json')
         db_hair = load_db('data/hair_product_db.json')
         groq_verifier = GroqVerifier()
