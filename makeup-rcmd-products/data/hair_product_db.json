@@ -1,0 +1,87 @@
+{
+  "Anti-Dandruff": [
+    {
+      "name": "Nizoral Anti-Dandruff Shampoo",
+      "type": "Shampoo",
+      "ingredients": "Ketoconazole 1%, Aqua, Sodium Laureth Sulfate"
+    },
+    {
+      "name": "Head & Shoulders Clinical Strength",
+      "type": "Shampoo",
+      "ingredients": "Selenium Sulfide 1%, Water, Sodium Lauryl Sulfate"
+    },
+    {
+      "name": "The Ordinary Salicylic Acid 2% Scalp Serum",
+      "type": "Scalp Treatment",
+      "ingredients": "Aqua, Salicylic Acid, Glycerin"
+    }
+  ],
+  "Hairfall Control": [
+    {
+      "name": "Mielle Rosemary Mint Scalp & Hair Strengthening Oil",
+      "type": "Hair Oil",
+      "ingredients": "Rosemary Leaf Oil, Mint Oil, Biotin, Castor Oil"
+    },
+    {
+      "name": "Pura D'or Original Gold Label Anti-Thinning Shampoo",
+      "type": "Shampoo",
+      "ingredients": "Biotin, Argan Oil, Nettle Extract, Pumpkin Seed Oil"
+    },
+    {
+      "name": "Kerastase Genesis Anti Hair-Fall Serum",
+      "type": "Scalp Serum",
+      "ingredients": "Aminexil, Ginger Root Extract, Caffeine"
+    }
+  ],
+  "Frizz Control & Moisture": [
+    {
+      "name": "Moroccanoil Treatment",
+      "type": "Hair Oil",
+      "ingredients": "Argania Spinosa Kernel Oil, Linseed Extract"
+    },
+    {
+      "name": "Shea Moisture Coconut & Hibiscus Curl Enhancing Smoothie",
+      "type": "Leave-In",
+      "ingredients": "Cocos Nucifera Fruit Juice, Butyrospermum Parkii, Silk Protein"
+    },
+    {
+      "name": "Olaplex No. 6 Bond Smoother",
+      "type": "Styling Cream",
+      "ingredients": "Water, Cetearyl Alcohol, Bis-Aminopropyl Diglycol Dimaleate"
+    }
+  ],
+  "Color Protect": [
+    {
+      "name": "Pureology Hydrate Shampoo",
+      "type": "Shampoo",
+      "ingredients": "Aqua, Sodium Cocoyl Isethionate, Jojoba, Green Tea"
+    },
+    {
+      "name": "Olaplex No. 3 Hair Perfector",
+      "type": "Treatment",
+      "ingredients": "Water, Bis-Aminopropyl Diglycol Dimaleate, Propylene Glycol"
+    },
+    {
+      "name": "Redken Color Extend Magnetics Conditioner",
+      "type": "Conditioner",
+      "ingredients": "Aqua, Cetearyl Alcohol, Amodimethicone, Cranberry Oil"
+    }
+  ],
+  "Daily Volume": [
+    {
+      "name": "OUAI Fine Hair Shampoo",
+      "type": "Shampoo",
+      "ingredients": "Water, Sodium C14-16 Olefin Sulfonate, Keratin, Biotin"
+    },
+    {
+      "name": "Living Proof Full Thickening Cream",
+      "type": "Styling Cream",
+      "ingredients": "Water, Polyalkylaminoester-1, Polyacrylate-13"
+    },
+    {
+      "name": "Bumble and bumble Thickening Volume Shampoo",
+      "type": "Shampoo",
+      "ingredients": "Water, Sodium Laureth Sulfate, Panthenol, Aloe Vera"
+    }
+  ]
+}
